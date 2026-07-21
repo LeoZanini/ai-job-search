@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Leonardo Zanini Niclote
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Leonardo Zanini Niclote, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,69 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Leonardo Zanini Niclote
+- **Location:** Pato Branco, Paraná, Brazil (not relocating; targeting fully remote roles internationally, any country/timezone)
+- **Languages:** Portuguese (native), English (7+ years professional working proficiency)
+- **Status:** Employed (Kodama - full stack & automation, ongoing; SENAC - AI instructor, ongoing), actively job-searching for a remote international junior full-stack/frontend role
+- **LinkedIn headline:** "Full-Stack Web Developer | AI Technician Instructor at SENAC"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Mechanical Engineering** - UTFPR, Pato Branco, PR, Brazil
+  - Topics: Mechanical design, manufacturing processes
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **AI Technician Instructor** (Feb 2026 - Present) - **SENAC** (Pato Branco, PR, Brazil)
+  - Teaching 30 high school students in a 1200-hour AI Technician program (Python, AI fundamentals, computer architecture, databases, statistics)
+  - Building an agent-driven infrastructure for automated lesson/exercise generation using hierarchical LLM orchestration
+- **Co-Founder, Software Engineer & Product Strategist** (Feb 2024 - Mar 2026) - **Connfit** (Brazil, remote/distributed)
+  - Wrote ~50% of the codebase (React, Next.js, Tailwind CSS, Supabase, PostgreSQL, Prisma, N8N, Docker) for a nutritionist SaaS platform
+  - Reached 100+ registered users and 4 paying customers; concluded, via structured interviews with 50-70 nutritionists, that the product lacked strong market fit and wound the venture down
+- **Full Stack Developer & Automation Specialist** (Sep 2023 - Present) - **Kodama** (Brazil, remote/distributed)
+  - Built and resold a WhatsApp automation product (Vek1) using Evolution API + N8N; later migrated to the official Meta Business Suite API
+  - Leads B2B consultative sales and technical scoping for automation clients; mentors a junior developer
+- **Programming Logic Instructor** (Mar 2024 - Apr 2024) - **SENAC** (Pato Branco, PR, Brazil)
+  - Taught 22 students JavaScript fundamentals in a 50-hour course
+- **Junior Project Analyst** (2022 - 2023) - **Atlas Eletrodomésticos** (Brazil)
+  - Engineering optimization and 2D/3D mechanical design (SolidWorks, ISO 9001) - prior to the pivot into software
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** TypeScript/JavaScript, React, Next.js, Tailwind CSS, Node.js
+- **Secondary:** Python, SQL/PostgreSQL, Prisma, Supabase, REST APIs, GraphQL, Docker, N8N, GitHub Actions, Vercel, Jest, Playwright
+- **Domain:** SaaS product development, WhatsApp/business messaging automation, LLM/AI agent integration, B2B consultative technical sales, LGPD compliance
+- **Software:** Supabase, Docker, N8N, Vercel, GitHub Actions, SolidWorks (legacy, from mechanical engineering background)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **JavaScript Programming** - Codecademy (date not specified in source CV)
+- **Web Development** - Udemy (date not specified in source CV)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+Not applicable.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+Not applicable.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- Self-assessment, no formal instrument on file. See 02-behavioral-profile.md for full detail. -->
+- **Adaptability** - Moved from mechanical engineering into self-taught full-stack dev, product strategy, and B2B sales; comfortable flexing into larger/more structured environments for stability if needed
+- **Multidisciplinary bridge-builder** - Understands both the code and the client/business side, not just engineering in isolation
+- **Strengths:** Fast domain-switching, shipping production systems solo/co-founder-style, actively seeking and welcoming direct feedback
+- **Growth areas:** Deep technical English for architecture discussions; broader exposure to software architecture patterns beyond self-teaching
+- **Thrives in:** Small, high-autonomy teams with short delivery cycles and frequent, direct feedback; prefers an execution-first role for now to build depth before returning to more ownership/leadership
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building products end-to-end and owning the full stack from database to deployment
+- Teaching/mentoring others and bridging technical work with client/business needs
+- Learning new stacks and domains quickly, and working on multiple projects at once
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Remote-first tech/SaaS startups (any country) hiring junior full-stack or frontend developers
+- AI/automation tooling companies and agencies (adjacent to current work at Kodama)
+- Freelance/contract platforms (Workana, Upwork) as parallel or interim income
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Requiring relocation away from Pato Branco, PR, Brazil
+- Strictly on-site-only roles (current search is remote-first)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

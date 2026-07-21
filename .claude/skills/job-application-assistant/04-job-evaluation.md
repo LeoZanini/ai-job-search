@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React, Next.js, TypeScript/JavaScript, Tailwind CSS, Node.js - the full JS/TS front-to-back stack
+**Moderate match areas:** Python, SQL/PostgreSQL, DevOps (Docker, CI/CD, N8N), AI/LLM integration and agent development
+**Weak match areas:** Deep CS fundamentals/algorithms (self-taught, no CS degree), large-scale distributed systems, formal software architecture experience, native mobile development (iOS/Android)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Full-stack SaaS development (Connfit), production automation/integration work (Kodama)
+**Moderate:** Technical consulting/client scoping, B2B client-facing technical sales, teaching/curriculum design
+**Entry-level:** Never held a formally-titled "Junior Developer" role at a company (path so far is self-taught + co-founder + freelance-style consulting) - a real gap for postings that specifically screen for a prior "junior developer" job title, even though the shipped production work is substantial
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,10 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Fully remote, any country/timezone: PASS (primary target)
+- Remote but restricted to residents/citizens of a specific country/region the candidate doesn't hold: FLAG (check visa/work-authorization requirement before proceeding)
+- Requires relocation from Pato Branco, PR, Brazil: FAIL (deal-breaker)
+- On-site or hybrid role based in Brazil: FLAG (not the current search focus, but not automatically excluded - discuss with user if the opportunity is compelling)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +63,20 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a first formally-titled Junior Full-Stack or Junior Front-End Developer role, ideally remote and international, to build recognized team-based experience beyond the self-taught/co-founder path
+- Maximize learning velocity - prefers exposure to multiple projects/domains at once over a single narrow track
+- Build confidence and depth in technical English communication (architecture discussions specifically)
+- Keep freelance/contract work (Workana, Upwork, similar) as a parallel or interim income source while pursuing a full-time remote role
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: creative technical problem-solving, cross-functional work connecting code to client/business needs, learning new stacks or domains, short-cycle work with visible output
+- Tasks that drain: constant project-switching without ever shipping, no room for creative input on the solution, no visible path to grow
+- Non-task factors: direct/frequent feedback, mentorship availability, degree of autonomy on how a problem gets solved
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Needs paid income now; explicitly willing to adapt to larger, more structured/corporate environments purely for pay and stability if a smaller-team fit isn't available
+- **Flexibility**: Based in Pato Branco, PR, Brazil; not relocating; open to any country/timezone for a remote role
+- **Professional development**: Prioritizes gaining a formally-titled "junior" role and deepening technical English and software architecture knowledge over immediate compensation
 
 ### 6. Salary Benchmark (Optional)
 

@@ -118,8 +118,9 @@ If the user decides to apply to any job, add a row to `job_search_tracker.csv`.
 ## Important Rules
 
 1. **Never fabricate job postings.** Only present jobs found via actual WebSearch/WebFetch results.
-2. **Respect deduplication.** Always check seen_jobs.json AND job_search_tracker.csv before presenting.
-3. **Focus on configured geographic area.** Skip jobs that require relocation or are clearly outside commute range.
-4. **Only open positions.** Skip postings with expired deadlines or those marked as closed.
-5. **Be efficient with WebFetch.** Don't fetch every search result - use titles and snippets to pre-filter before fetching.
-6. **Parallel searches.** Use the Agent tool or parallel WebSearch calls to speed up the search phase.
+2. **Prefer the direct application link over an aggregator's "Apply" button.** Sites like RemoteOK gate their in-site apply flow behind a paid job-seeker account; the listing itself is free to read, but "Apply now" often pushes a premium upsell instead of going straight to the employer. Before presenting a job found via an aggregator (RemoteOK, We Work Remotely, Remotive, etc.), do a quick search for the same role on the company's own careers page or LinkedIn/Gupy listing, and give the user that link instead when it exists. If no direct link can be found, say so explicitly rather than silently pointing at the aggregator's apply button.
+3. **Respect deduplication.** Always check seen_jobs.json AND job_search_tracker.csv before presenting.
+4. **Focus on the configured search scope.** For a remote-first candidate, "scope" means remote-eligibility, not commute distance - skip jobs that require relocation or restrict remote work to a region/citizenship the candidate doesn't hold.
+5. **Only open positions.** Skip postings with expired deadlines or those marked as closed.
+6. **Be efficient with WebFetch.** Don't fetch every search result - use titles and snippets to pre-filter before fetching.
+7. **Parallel searches.** Use the Agent tool or parallel WebSearch calls to speed up the search phase.

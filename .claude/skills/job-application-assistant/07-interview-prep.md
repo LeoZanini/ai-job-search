@@ -10,44 +10,52 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+### 1. Rebuilding the Connfit scheduling engine (ownership, iterating from user feedback)
+**S:** Co-founded Connfit, a SaaS platform for nutritionists. The initial scheduling engine didn't match how nutritionists actually managed patient availability and bookings in practice.
+**T:** As the engineer owning roughly half the codebase, responsible for redesigning the scheduling engine so it could scale with real customer workflows instead of assumptions.
+**A:** Rebuilt the engine from scratch twice, each time grounding the redesign in structured one-on-one interviews with 50-70 nutritionists (30-60 minutes each, controlled script) before touching the architecture.
+**R:** Shipped a scheduling system that supported 100+ registered users and helped convert 4 paying customers at R$279-350/month.
+**Use for:** "Tell me about a time you had to rebuild something that wasn't working", "ownership", "using user feedback to drive technical decisions"
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Building Vek1 at Kodama (initiative, technical tradeoffs)
+**S:** Kodama wanted to offer WhatsApp automation to clients without waiting on the limitations of the official Meta Business API.
+**T:** Build and package a resellable automation product on top of a free, open WhatsApp platform.
+**A:** Built an integration using Evolution API and N8N, wrapped in custom UI/UX, self-hosted in Docker on a VPS, and launched it as its own product, Vek1 (vek1.com.br). Later migrated clients to the official Meta Business Suite API as requirements matured.
+**R:** Created a standalone product line generating revenue independent of Kodama's core consulting work, and learned firsthand the tradeoffs between an unofficial integration and an official platform API.
+**Use for:** "Tell me about a project you built end-to-end", "initiative", "a technical decision with tradeoffs"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Scoping client work at Kodama (ambiguous requirements, stakeholder communication)
+**S:** Kodama's B2B clients often came in with vague requests ("automate our WhatsApp", "we need a CRM") without a clear scope.
+**T:** Lead around 2 client meetings per week, turning open-ended asks into scoped, shippable projects.
+**A:** Mapped each client's business process in detail, diagnosed whether they actually needed automation, a CRM, or something else, confirmed the direction with them, then scoped a step-by-step implementation plan capped at 5-6 screens for a compact first release, expanding later as trust was established.
+**R:** Established a repeatable pattern for turning ambiguous sales conversations into scoped technical delivery, avoiding over-built first releases.
+**Use for:** "How do you handle ambiguous requirements", "communicating with non-technical stakeholders", "scoping a project"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 4. Teaching the AI Technician curriculum at SENAC (fast learning, explaining technical topics)
+**S:** SENAC needed an instructor for a 1200-hour AI Technician program covering Python, AI fundamentals, computer architecture (CPU/GPU), databases, and statistics, for 30 high school students.
+**T:** Design and deliver hands-on exercises across a technical curriculum that extends well beyond a mechanical engineering background.
+**A:** Self-taught and structured teaching materials spanning CPU/GPU architecture to statistics, translating dense technical concepts into practical, hands-on exercises for students with no prior programming background.
+**R:** Currently teaching 30 students; also building an agent-driven infrastructure for automated lesson/exercise generation using hierarchical LLM orchestration.
+**Use for:** "Explain something technical to a non-expert", "learning something new quickly", "teaching or mentoring"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
 ## Common Tough Questions
 
-### "Why did you leave [previous company]?"
-> [PREPARE YOUR ANSWER - be honest, forward-looking, no negativity about former employer]
+### "Why did Connfit end?"
+> "Connfit set out to build patient-management software for nutritionists. Over 18 months I wrote most of the codebase and we reached 100+ registered users and 4 paying customers, but the structured interviews we ran with 50-70 nutritionists made clear the product hadn't found strong market fit. We made the call to wind it down rather than keep pushing on something the data didn't support. It's the reason I want to bring that full-stack and product experience into a team where I can focus purely on the engineering craft."
 
-### "You don't have [specific skill/experience]."
-> [PREPARE YOUR ANSWER - acknowledge the gap, bridge to adjacent experience, show willingness to learn]
+### "Why are you looking to leave your current role?"
+> "At Kodama I've owned automation products end-to-end, including client scoping and B2B sales, which taught me a lot about connecting engineering to real business needs. What I want next is a role that's purely software engineering, on a team with more experienced developers I can learn architecture and best practices from."
+
+### "You don't have a Computer Science degree or a prior 'Junior Developer' title."
+> "My degree is in Mechanical Engineering, and I moved into software by teaching myself and then shipping it in production: I wrote roughly half the codebase for a SaaS platform that reached 100+ users and paying customers, and I currently build and ship automation products for B2B clients. I don't have the CS coursework, but I have real production experience and I'm looking for a team environment to fill in the formal gaps, like deeper architecture patterns, faster."
 
 ### "Where do you see yourself in 5 years?"
-> [PREPARE YOUR ANSWER - show ambition aligned with the role's growth path]
+> "Growing from a junior into a strong mid-level full-stack or frontend engineer, likely specializing further in AI-driven product engineering. I want the next few years to be about building formal, team-based experience on top of what I've already shipped on my own."
 
 ### "What's your biggest weakness?"
-> [PREPARE YOUR ANSWER - genuine weakness with concrete mitigation strategy]
+> "Technical English at the depth needed for in-depth architecture discussions. I've worked in English for 7+ years professionally, but going deep on system design in a second language is still something I'm actively sharpening, partly by working through technical material in English and partly by seeking out teams where I'll get that practice regularly."
 
 ### "Why this company specifically?"
 > Customize per company. Must reference: specific projects, company values, market position, or team structure. Never give a generic answer.

@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Leonardo Zanini Niclote
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Leonardo Zanini Niclote - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Leonardo}{Zanini Niclote}
+\address{Pato Branco, PR, Brazil}{}{}
+\phone[mobile]{+55 46 99919-9131}
+\email{leo.zn\_97@hotmail.com}
+\extrainfo{\href{https://linkedin.com/in/leo-zanini}{LinkedIn}, \href{https://github.com/LeoZanini}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Full-stack developer with 3 years building production SaaS and automation systems. Co-founded Connfit, a nutrition-tech SaaS platform (validated product-market fit through 50+ nutritionist interviews, 4 paying customers), delivers WhatsApp and AI automation solutions at Kodama using Claude Code and modern agentic tooling, and teaches AI programming to 30 students at SENAC. Comfortable owning the full stack from database design to deployment, and explaining it to anyone.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,17 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Languages}: TypeScript, JavaScript, Python, SQL
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Frontend}: React, Next.js, Tailwind CSS, Remix
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend}: Node.js, Prisma, Supabase, PostgreSQL, REST APIs, GraphQL
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{DevOps \& Infrastructure}: Git, Docker, N8N, GitHub Actions, Vercel, VPS Hosting
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{AI \& Automation}: LLM Integration, Agent Development (Claude Code), Prompt Engineering, Evolution API
+
+\item \textbf{Testing}: Jest, Playwright
 
 \end{itemize}
 
@@ -76,32 +77,52 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- SENAC (AI Instructor) ---
+\item{\cventry{Feb 2026--Present}{AI Technician Instructor}{SENAC}{Pato Branco, PR, Brazil}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Teaching 30 high school students in the AI Technician program (1200-hour curriculum over 3 years)
+    \item Topics include Python, AI Fundamentals, Computer Architecture (CPU/GPU), Databases, Statistics, and Digital Transformation
+    \item Design and deliver hands-on programming exercises focused on practical AI and software development
+    \item Building an agent-driven infrastructure for automated lesson and exercise generation using hierarchical LLM orchestration (in development)
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Connfit (Co-Founder) ---
+\item{\cventry{Feb 2024--Mar 2026}{Co-Founder, Software Engineer \& Product Strategist}{Connfit}{Brazil (remote/distributed)}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Co-founded a SaaS platform for nutritionists focused on patient management, scheduling, and workflow automation; wrote \textasciitilde50\% of the codebase (React, Next.js, Tailwind CSS, Supabase, PostgreSQL, Prisma, N8N, Docker)
+    \item Designed an interview-driven onboarding flow that personalized the platform experience per user based on professional maturity
+    \item Reached 100+ registered users and 4 paying customers (R\$279--350/month), informed by structured interviews with 50-70 nutritionists; concluded the product lacked strong market fit
+    \item Implemented LGPD-compliant data handling with AES-256 encryption for patient data security
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Kodama ---
+\item{\cventry{Sep 2023--Present}{Full Stack Developer \& Automation Specialist}{Kodama}{Brazil (remote/distributed)}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Built an integration tool using Evolution API and N8N on top of an open WhatsApp platform, packaged with custom UI/UX and resold as Vek1 (vek1.com.br); later migrated to the official Meta Business Suite API
+    \item Develop and deploy AI-powered WhatsApp bots tailored to each client's workflow, routing conversations to human agents
+    \item Lead consultative B2B sales, averaging 2 client meetings/week; scope step-by-step implementation plans from ambiguous requirements
+    \item Mentored a junior developer through full-stack development, Supabase schema design, and practical AI tooling
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- SENAC (Programming Logic Instructor) ---
+\item{\cventry{Mar 2024--Apr 2024}{Programming Logic Instructor}{SENAC}{Pato Branco, PR, Brazil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Taught 22 students JavaScript fundamentals (arrays, modularization, OOP, debugging) in a 50-hour course
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Atlas Eletrodomésticos ---
+\item{\cventry{2022--2023}{Junior Project Analyst}{Atlas Eletrodomésticos}{Brazil}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led engineering optimization initiatives reducing production costs through manufacturing process improvements
+    \item Designed and validated 2D/3D mechanical components in SolidWorks following ISO 9001 quality standards
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +135,7 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{}{Bachelor of Mechanical Engineering}{UTFPR}{Pato Branco, PR, Brazil}{}{}}
 
 \end{itemize}
 
@@ -133,37 +146,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item Portuguese (native), English (7+ years professional working proficiency).
 \end{itemize}
 
 \end{document}

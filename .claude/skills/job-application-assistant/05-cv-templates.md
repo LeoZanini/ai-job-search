@@ -105,12 +105,11 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Junior Full-Stack Developer roles:**
+> Full-stack developer with 3 years shipping production SaaS and automation systems end-to-end, from database schema to deployment. Co-founded and wrote ~50% of the codebase for a nutrition-tech SaaS platform (React, Next.js, Supabase, PostgreSQL, Prisma), and currently build AI-powered WhatsApp automation and mini-CRMs for B2B clients at Kodama using Claude Code and modern agentic tooling. Comfortable owning features across the stack and explaining technical tradeoffs to non-technical stakeholders.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Junior Front-End Developer roles:**
+> Frontend-focused full-stack developer who has built production interfaces in React, Next.js, and Tailwind CSS for a SaaS platform used by 100+ nutrition professionals. Designed onboarding flows and dashboards that adapt to each user's professional maturity, backed by structured research (50+ customer interviews). Comfortable turning ambiguous product requirements into clean, tested UI and eager to grow under more senior frontend engineers.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
@@ -142,9 +141,7 @@ If there is a gap in your employment history:
 - Keep format brief, one line each
 
 ### References
-- List 2-4 references with name, title, company, and contact
-- End with: "More references are available upon request."
-- **Do not attach reference letters** - employers typically contact references directly
+- **This candidate: omit the References section entirely.** No named references and no "available upon request" filler line - do not add a References section to any tailored CV.
 
 ## Compile-and-Inspect Loop (MANDATORY)
 
